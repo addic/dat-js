@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.clear {
+	clear: both;
+}
+.centered {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: auto;
+}
+#viewport {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.panel {
+	padding: 1.5em;
+	height: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}
+.panel.fade {
+	opacity: 0;
+	z-index: 0;
+	-webkit-transition: opacity 0.4s linear;
+	transition: opacity 0.4s linear;
+}
+.panel.fade.active {
+	opacity: 1;
+	z-index: 9;
+	-webkit-overflow-scrolling: touch;
+}
+.panel.fade.previous {
+	opacity: 0;
+	z-index: 0;
+	-webkit-overflow-scrolling: auto;
+}
+.panel.slide-left {
+	margin-left: 100%;
+
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+.panel.slide-left.previous {
+	margin-left: 100%;
+}
+.panel.slide-left.active {
+	margin: 0;
+}
+.panel.slide-right {
+	margin-left: -100%;
+
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+.panel.slide-right.previous {
+	margin-right: 100%;
+}
+.panel.slide-right.active {
+	margin: 0;
+}
