@@ -7,11 +7,14 @@ handle events and interact with the API.
 ## Demo
 There is a mobile APP live built on this, which is performing reasonably well.
 If you are curious to see it in action, go ahead and try out the APP:
-[Youtube demo](https://youtu.be/BeNKyzvOYUU),
 [Appstore](https://itunes.apple.com/lt/app/vupt!-agua-gas/id984136325),
-[Google Play](https://play.google.com/store/apps/details?id=me.vupt.app)
+[Google Play](https://play.google.com/store/apps/details?id=me.vupt.app),
+[Youtube demo](https://youtu.be/BeNKyzvOYUU).
 
-## What can i do with it?
+
+[![Youtube Demo](http://img.youtube.com/vi/BeNKyzvOYUU/0.jpg)](http://www.youtube.com/watch?v=BeNKyzvOYUU)
+
+## What can I do with it?
 In the end this turned out to be a great learning experience for me and a decent DOM manipulation JS library.
 Feel free to use it for anything you wish - inspiration/learning/development/production.
 
